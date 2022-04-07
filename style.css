@@ -1,0 +1,63 @@
+#nav-button-blue{
+    height: 3em;
+    align-self: center;
+
+    border-radius: 2em;
+    color:#ffffff;
+}
+#primary-button{
+    width: 500px;
+    border-radius: 4em;
+}
+#subs{
+    width:70vh;
+}
+#arsha{
+    font-size: x-large;
+    font-weight: 600;
+    color: #154c79;
+}
+#bold{
+    font-weight: 700;
+}
+h3{
+    color: #154c79;
+}
+#header1{
+    font-size: 3em;
+}
+#firstlink{
+    color:#0dcaf0;
+}
+.card-title{
+    color: #154c79;
+    font-weight: 700;
+}
+#callsection{
+    background-image: url(./images/building1.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+#second-cont{
+    height: 10em;
+    display: block;
+    align-items: center;
+    padding: 30px;
+}
+h5{
+    color: #154c79;
+}
+#calltext{
+    width: 80%;
+}
+@media (max-width:1000px) {
+    #calltext{
+        width: 100%;
+    }
+    #nav-button-blue{
+        align-self: flex-end;
+    }
+    #second-cont{
+        height:max-content;
+    }
+}
